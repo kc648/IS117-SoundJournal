@@ -1,0 +1,32 @@
+/*DEVELOPER: Kimberly Corpuz, IS117-001, Fall 2025*/
+
+.btn {
+    font-size: 14px;
+    background-color: #4dc2f7;
+}
+
+.song-details {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);    border-radius: 12px;
+    padding: 30px 20px;
+    margin: 15px;
+    height: 100%;
+    width: auto;
+    border: 1px solid #30363d;
+    text-align: center;
+    transition: all 1s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.song-details:hover {
+    border-color: #4dc2f7;
+    box-shadow: 0 4px 20px rgba(77, 194, 247, 0.2);
+}
+.song-details h3 {
+    color: #4dc2f7;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.story-content {
+    text-align: left !important;
+}

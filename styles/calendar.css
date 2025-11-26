@@ -1,0 +1,83 @@
+/*DEVELOPER: Kimberly Corpuz, IS117-001, Fall 2025*/
+
+.calendar-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 15px;
+    flex-grow: 1;
+}
+
+.day-header {
+    font-weight: bold;
+    color: #c9d1d9;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day-box {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+    border: 1px solid #30363d;
+
+    aspect-ratio: 1 / 1;
+    padding: 3px;
+    overflow: hidden;
+    color: #8b949e;
+    position: relative;
+
+    transition: transform 0.2s, box-shadow 0.5s, border-color 0.5s;
+    cursor: pointer;
+}
+
+.day-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(77, 194, 247, 0.8), 0 0 20px rgba(77, 194, 247, 0.2);
+    border-color: #4dc2f7;
+}
+
+.day-number {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    font-weight: bold;
+    color: #c9d1d9;
+    z-index: 2;
+    font-size: 1em;
+}
+
+.day-entry {
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    color: white;
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+    transition: opacity 0.2s;
+}
+
+.day-box:hover .play-icon {
+    opacity: 1;
+    color: white;
+}

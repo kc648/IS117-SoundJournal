@@ -1,0 +1,48 @@
+/*DEVELOPER: Kimberly Corpuz, IS117-001, Fall 2025*/
+
+.entry-card {
+    height: 100%;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.entry-card h3 {
+    color: #c9d1d9;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.entry-meta {
+    font-size: 0.85rem;
+    color: #8b949e;
+    margin-bottom: 15px;
+}
+
+.entry-date {
+    font-weight: bold;
+    color: #4dc2f7;
+}
+
+.entry-feeling {
+    font-style: italic;
+}
+
+.entry-summary {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.entry-card .accent-link {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #4dc2f7;
+}
+
+.entry-card .artist {
+    color: #4dc2f7;
+}
+

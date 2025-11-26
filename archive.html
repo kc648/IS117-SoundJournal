@@ -1,0 +1,133 @@
+<!--DEVELOPER: Kimberly Corpuz, IS117-001, Fall 2025-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Entries</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/archive.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand" href="index.html"><img src="img/transparent%20sj%20logo.png"  alt="soundjournal logo" style="height: 50px; width: 50px; margin-right: 10px; vertical-align: middle;">SoundJournal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="calendar.html">Calendar</a></li>
+                <li class="submenu">
+                    <a class="nav-link" href="archive.html">Archive</a>
+                    <ul class="dropdown">
+                        <li><a class="nav-link" href="add-entry.html">Add new entry</a></li>
+                        <li><a class="nav-link" href="archive.html">View entries</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="submenu">
+                    <a class="nav-link" href="login.html">Account</a>
+                    <ul class="dropdown">
+                        <li><a class="nav-link" href="login.html">Login</a></li>
+                        <li><a class="nav-link" href="register.html">Register</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="main-content-wrapper container">
+    <div class="text-center pt-5 mb-5">
+        <h1 class="display-5 fw-bold">My SoundJournal</h1>
+        <p class="lead">Revisit your memories and relive the same feelings.</p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 pb-5">
+
+        <div class="col">
+            <div class="feature-card entry-card">
+                <div class="entry-meta">
+                    <span class="entry-date">November 23, 2025</span> | <span class="entry-feeling">Empowered</span>
+                </div>
+                <h3>THIS IS FOR</h3>
+                <p class="artist">TWICE</p>
+                <hr>
+                <p class="entry-summary">After two whole months of procrastinating over a class project, I finally got around to finishing! It felt so invigorating to click the Submit button when I did, I almost forgot all about the feelings of dread that clouded my thoughts countless days beforehand. Looking past that, I just felt like this song was the perfect way to celebrate the hard work and dedication that I put into my project. Not to mention, my final product was not too far off from what I originally wanted—so consider me satisfied!</p>
+                <a href="sample-entries/twice-entry.html" class="accent-link">Read full entry &rarr;</a>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="feature-card entry-card">
+                <div class="entry-meta">
+                    <span class="entry-date">November 20, 2025</span> | <span class="entry-feeling">Festive</span>
+                </div>
+                <h3>Fa La La</h3>
+                <p class="artist">Justin Bieber, Boyz II Men</p>
+                <hr>
+                <p class="entry-summary">With two major holidays coming up, tonight felt like the perfect night to help my mom get the house prepared for all of the holiday festivities! Of course, I had to play my favorite Christmas album to make putting up decorations that more exciting. Bonding with family over something as simple as decorating the house really makes my heart happy. Everything about the holidays just brings me so much joy and when we combine this with Justin Bieber’s Under the Mistletoe album, it’s hard to believe that some people’s favorite holiday isn’t Christmas!</p>
+                <a href="sample-entries/justin-entry.html" class="accent-link">Read full entry &rarr;</a>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="feature-card entry-card">
+                <div class="entry-meta">
+                    <span class="entry-date">November 18, 2025</span> | <span class="entry-feeling">Despondent</span>
+                </div>
+                <h3>Who Knows</h3>
+                <p class="artist">Daniel Caesar</p>
+                <hr>
+                <p class="entry-summary">I finally got around to listening to Daniel Caesar’s new album today on the way home from school. As I drove home, the sun had started to go down and I felt like I started to resonate with the song even more. It felt as if a river of questions started to flow out of me and I also started thinking of all the “maybes” and “what-ifs” pertaining to my future. More than ever, I feel the weight of my adulting and I still don’t feel very secure in my plans for myself.</p>
+                <a href="sample-entries/daniel-entry.html" class="accent-link">Read full entry &rarr;</a>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="feature-card entry-card">
+                <div class="entry-meta">
+                    <span class="entry-date">November 10, 2025</span> | <span class="entry-feeling">Content</span>
+                </div>
+                <h3>Turning Green</h3>
+                <p class="artist">Maki</p>
+                <hr>
+                <p class="entry-summary">Today, I felt like I was the main character of an indie, coming-of-age romance movie. It was the first time I had seen a significant person from my past and I was overcome with feelings of regret and nostalgia. Maki’s song perfectly captures the essence of what I felt tonight. He lists the nagging questions that were somehow always at the back of my mind and were now at its forefront. How have they been since we stopped talking? Did they miss me? Can we go back to being friends?</p>
+                <a href="sample-entries/maki-entry.html" class="accent-link">Read full entry &rarr;</a>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="feature-card entry-card">
+                <div class="entry-meta">
+                    <span class="entry-date">November 5, 2025</span> | <span class="entry-feeling">Romantic</span>
+                </div>
+                <h3>Love Story</h3>
+                <p class="artist">Taylor Swift</p>
+                <hr>
+                <p class="entry-summary">When I was younger, I always fantasized the concept of finding the Romeo to my Juliet. Who would they be? How would I know when I finally found them? During those times, I remember listening to a lot of Taylor Swift’s old songs. She would always capture the essence of teenage love and crushing on someone. Now, as a 22-year-old in college, I feel like I’ve lost that innocent and naïve part of my younger self. But, after listening to some old Taylor Swift songs again, I found myself getting giddy and excited about finding The One.</p>
+                <a href="sample-entries/taylor-entry.html" class="accent-link">Read full entry &rarr;</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <footer class="text-center">
+        <div class="container d-flex justify-content-between">
+            <span>&copy; Copyright Kimberly Corpuz, 2025</span>
+            <div class="d-flex">
+                <a href="#" class="text-decoration-none text-info mx-2">Terms of Service</a>
+                |
+                <a href="#" class="text-decoration-none text-info mx-2">Privacy Statement</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
